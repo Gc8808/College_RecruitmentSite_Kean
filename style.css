@@ -1,18 +1,22 @@
 .banner {
-    width : 1920px;
-    height: 200px;
+    width : 1280px;
+    height: 300px;
+    padding-left: 15px;
+      padding-right: 15px;
 }
 
   body {
-      background-color: #f0f0f0;
+      background-image: url('tile_background.png');
       text-align: center;
      
       font-family: 'Arial', sans-serif;
-      background-image: url('article-most-successful-clubs-in-portugal.jpg');
+    
       background-repeat: no-repeat;
       background-size: 1920px 1080px;
       background-position: center;
       background-attachment: fixed;
+      height: 100%;
+      width:100%;
     }
 
     h1 span {
@@ -53,4 +57,53 @@
 
 .bounce {
   animation: small-bounce 1.5s ease-in-out infinite;
+}
+
+.carded {
+  
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  float: right;
+}
+
+/* Splash Screen Styling */
+#splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: lightblue;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: opacity 1s ease-out;
+}
+
+/* Logo styling */
+#logo {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Progress bar container */
+.progress-container {
+  width: 80%;
+  background: #333;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+/* Progress bar itself */
+.progress-bar {
+  height: 20px;
+  background: gray;
+  width: 0%;
+  transition: width 0.1s linear;
 }
