@@ -33,3 +33,19 @@ const interval = setInterval(() => {
     }, 1000); // match fade out time
   }
 }, intervalTime);
+
+
+
+
+
+    
+
+
+document.getElementById('applyButton').addEventListener('click', () => {
+endMessage.classList.remove('d-none'); // Show the message
+endMessage.classList.add('d-block'); // Ensure it's displayed properly
+});
+
+document.getElementById('closeButton').addEventListener('click', () => {
+  document.getElementById('end').classList.add('d-none');
+});
