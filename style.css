@@ -108,3 +108,17 @@
   width: 0%;
   transition: width 0.1s linear;
 }
+
+
+.Aluinfo {
+  margin: auto;
+  margin-top: 450px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 200px;
+ 
+}
