@@ -8,16 +8,15 @@
   body {
       background-image: url('tile_background.png');
       text-align: center;
-     
       font-family: 'Arial', sans-serif;
-    
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
-      height: 100%;
-      width:100%;
-      bac
+      min-height: 100vh;
+      width: 100vw;
+      overflow-x: hidden;
+      
     }
 
     h1 span {
@@ -121,4 +120,46 @@
   width: 400px;
   height: 200px;
  
+}
+
+.buttons {
+  background-color: darkblue;
+  color: white;
+  border: solid whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition-duration: 1s;
+}
+
+.buttons:hover {
+  background-color: whitesmoke;
+  color: darkblue;
+  border: solid red;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.majors {
+margin: 50px;
+  background-color: whitesmoke;
+height: 200px;
+  width: 300px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
