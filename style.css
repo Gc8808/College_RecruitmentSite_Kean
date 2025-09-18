@@ -111,16 +111,24 @@
 
 .Aluinfo {
   margin: auto;
-  margin-top: 450px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: whitesmoke;
-  align-items: center;
-  text-align: center;
+  background-color: rgba(245, 245, 245, 0.7); /* whitesmoke with slight opacity */
   width: 400px;
-  height: 200px;
- 
+  height: 400px;
+  /*Ai used to fix styling */
 }
+
+@media (min-width: 992px) {
+  .Aluinfo {
+    margin-top: 300px;
+    
+  }
+  .majors {
+    margin-top: 100px;
+  }
+}
+/* learned from AI response */
 
 .buttons {
   background-color: darkblue;
@@ -153,13 +161,27 @@
 }
 
 .majors {
-margin: 50px;
-  background-color: whitesmoke;
-height: 200px;
-  width: 300px;
+  
+  background-color: rgba(245, 245, 245); /* whitesmoke with slight opacity */
+width: 300px;
+  height: 200px;
+  margin: auto;
   margin-top: 20px;
-  margin-right: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  text-align: center;
+}
 
+.locations {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 10px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.home {
+  margin-top: 20px;
+   background-color: rgba(245, 245, 245); /* whitesmoke with slight opacity */
 }

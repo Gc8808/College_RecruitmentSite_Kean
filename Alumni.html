@@ -19,22 +19,33 @@
   </header>
   <main>
 <div class="container">
-  <div class="row d-flex justify-content-center">
-    <div class="majors col-lg-4 col-sm-12 d-flex flex-column align-items-center justify-content-center mb-4" style="word-break: break-word; overflow-wrap: break-word; max-width: 100%;">
+  <div class="row justify-content-center align-items-start">
+    <!-- Left: Search for your major -->
+    <div class="col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center mb-4 majors">
       <h2>Search for your major:</h2>
-
       <form action="">
         <input type="text" class="form-control mb-2" id="majorInput" placeholder="Enter your major">
       </form>
-      <button class="buttons" id="searchMajorBtn">Search</button> 
+      <button class="buttons" id="searchMajorBtn">Search</button>
       <p id="answer"></p>
     </div>
-    <div class="Aluinfo col-lg-4 col-sm-12 d-flex flex-column align-items-center justify-content-center mb-4">
+    <!-- Center: Alumni Info -->
+    <div class="col-lg-6 col-md-12 d-flex flex-column align-items-center justify-content-center mb-4 Aluinfo">
       <h1 id="Student"></h1>
       <p id="studentInfo"></p>
       <button id="refreshButton" onclick="randomizeStudent()" class="buttons">Refresh</button>
     </div>
+    <!-- Right: Test -->
+    <div class="col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center mb-4 majors">
+      <h2>Locations</h2>
+    <p id="locationsList" class="locations"></p>
+      <button class="buttons" id="searchMajorBtn2">Show all locations</button>
+      <p id="answer2"></p>
+    </div>
   </div>
+</div>
+<div class="home">
+ <a href="index.html" class="buttons mb-2">Home</a>
 </div>
   </main>
   <footer>

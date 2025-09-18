@@ -109,3 +109,20 @@ document.getElementById('searchMajorBtn').addEventListener('click', function() {
     }
     document.getElementById('answer').innerText = ans;
 });
+
+const locations = [
+  "Union, New Jersey (Main Campus)",
+  "Kean Ocean (Toms River, New Jersey)",
+  "Kean Skylands (Jefferson, New Jersey)",
+  "Kean Online", 
+  "Kean at Raritan Valley Community College (Branchburg, New Jersey)",
+  "Kean at Brookdale Community College (Lincroft, New Jersey)",
+  "Kean at County College of Morris (Randolph, New Jersey)"
+
+  //info by AI
+];
+
+
+document.getElementById('searchMajorBtn2').addEventListener('click', function() {
+  document.getElementById('locationsList').innerText = locations  
+})
