@@ -162,7 +162,7 @@
 
 .majors {
   
-  background-color: rgba(245, 245, 245); /* whitesmoke with slight opacity */
+  background-color: rgba(245, 245, 245); 
 width: 300px;
   height: 200px;
   margin: auto;
@@ -180,8 +180,16 @@ width: 300px;
   max-height: 150px;
   overflow-y: auto;
 }
-
 .home {
   margin-top: 20px;
-   background-color: rgba(245, 245, 245); /* whitesmoke with slight opacity */
+  background-color: rgba(245, 245, 245); 
+  width: fit-content;
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
+/* AI used to fix styling */
