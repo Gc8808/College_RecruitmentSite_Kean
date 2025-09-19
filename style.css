@@ -44,6 +44,8 @@
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
       margin-top: 50px;
       margin-bottom: 20px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         transition: duration 0.3s, transform 0.3s;
     }
 
     @keyframes small-bounce {
@@ -143,12 +145,13 @@
   cursor: pointer;
   border-radius: 12px;
   transition-duration: 1s;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .buttons:hover {
   background-color: whitesmoke;
   color: darkblue;
-  border: solid red;
+  border: solid gray;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -163,14 +166,15 @@
 .majors {
   
   background-color: rgba(245, 245, 245); 
-width: 300px;
-  height: 200px;
   margin: auto;
   margin-top: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   align-items: center;
   text-align: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
 }
 
 .locations {
@@ -180,16 +184,33 @@ width: 300px;
   max-height: 150px;
   overflow-y: auto;
 }
-.home {
-  margin-top: 20px;
-  background-color: rgba(245, 245, 245); 
-  width: fit-content;
-  border-radius: 15px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 /* AI used to fix styling */
+
+.majors2 {
+  
+  background-color: rgba(245, 245, 245); 
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  text-align: center;
+width: 350px;
+  height: 230px;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: duration 0.3s, transform 0.3s;
+}
+
+h2:hover {
+transform: scale(1.05);
+}
+
+h1:hover {
+transform: scale(1.05);
+}
